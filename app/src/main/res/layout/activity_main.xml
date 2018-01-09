@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fauzi.hilmy.quizemployee.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Job Employee"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etEmployer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Employer"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Salary"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Your Name" />
+
+        <TextView
+            android:id="@+id/lblJob"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Your Job" />
+
+        <TextView
+            android:id="@+id/lblEmployer"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Your Employer" />
+
+        <TextView
+            android:id="@+id/lblSalary"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Your Salary" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
